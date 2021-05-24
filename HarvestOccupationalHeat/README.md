@@ -1,7 +1,7 @@
 # Climate risk to rice labour
 Code demo to go with [Regional disparities and seasonal differences in climate risk to rice labour](https://doi.org/10.31223/X5SW3N).
 
-The original repo for this example has a [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4746392.svg)](https://doi.org/10.5281/zenodo.4746392).
+The original repo for this example has a DOI [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4746392.svg)](https://doi.org/10.5281/zenodo.4746392).
 
 ## Abstract
 The 880 million agricultural workers of the world are especially vulnerable to
@@ -26,7 +26,7 @@ productivity and occupational heat-stress.
 
 
 ## Getting started
-The notebook has already been evaluated, so [have a look](reduced_example.ipynb).
+The notebook has already been evaluated, so [have a look](example.ipynb).
 
 CMIP6 data is retreived from the Pangeo GCS.
 
@@ -37,8 +37,8 @@ A script is provided to setup the conda environment from inside the notebook if 
 ```
 ├── README.md
 ├── environment.yml    <- Conda environment specification.
-├── reduced_example.ipynb <- Example of heat/labour analysis using climate data and crop calendars.
-├── reduced_example.py    <- Script version of above notebook, used for clean version control.
+├── example.ipynb <- Example of heat/labour analysis using climate data and crop calendars.
+├── example.py    <- Script version of above notebook, used for clean version control.
 ├── src                <- Source code for use in this project.
 │   ├──Labour.py       <- Formulae for assumptions about the effect of WBGT on labour.
 │   └──RiceAtlas.py    <- Routine for loading RiceAtlas data.
