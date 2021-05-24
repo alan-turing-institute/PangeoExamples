@@ -1,0 +1,29 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cartopy=0.18.0
+  - dask
+  - gcsfs
+  - geopandas=0.8.1
+  - hdf5
+  - intake
+  - intake-esm
+  - libnetcdf
+  - numba
+  - pandas
+  - pip
+  - scipy
+  - xarray>=0.16.1
+  - cftime==1.4.1
+  - pip:    
+    - descartes
+    - fiona
+    - jupyter
+    - jupytext
+    - matplotlib
+    - nbconvert
+    - nc-time-axis
+    - psychrolib==2.5.0
+    - regionmask
+    - seaborn
