@@ -1,0 +1,14 @@
+name: intake-icenet2
+channels:
+- defaults
+- conda-forge
+dependencies:
+- python=3.8
+- intake
+- intake-xarray
+- xarray
+- rasterio
+- netcdf4
+- hvplot
+- requests
+- aiohttp
