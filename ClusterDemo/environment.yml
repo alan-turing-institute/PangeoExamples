@@ -1,0 +1,10 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - dask
+  - xarray
+  - pip
+  - pip:    
+    - dask-cloudprovider[azure]
+    - intake-esm
