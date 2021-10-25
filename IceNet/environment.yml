@@ -1,0 +1,11 @@
+name: IceNet
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - matplotlib
+  - numpy
+  - hvplot
+  - tensorflow==2.2.0
+  - geoviews
+  - urllib3
