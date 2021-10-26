@@ -8,4 +8,5 @@ dependencies:
   - hvplot
   - tensorflow==2.2.0
   - geoviews
+  - iris==3.0.1
   - urllib3
