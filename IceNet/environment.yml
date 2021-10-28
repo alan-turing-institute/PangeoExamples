@@ -1,4 +1,3 @@
-name: IceNet
 channels:
   - conda-forge
 dependencies:
@@ -8,5 +7,8 @@ dependencies:
   - hvplot
   - tensorflow==2.2.0
   - geoviews
-  - iris==3.0.1
+  - iris
   - urllib3
+  - imageio
+  - ipywidgets
+  - tqdm
