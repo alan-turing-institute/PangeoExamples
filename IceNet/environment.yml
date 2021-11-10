@@ -2,13 +2,17 @@ channels:
   - conda-forge
 dependencies:
   - python=3.8
-  - matplotlib
-  - numpy
-  - hvplot
-  - tensorflow==2.2.0
-  - geoviews
-  - iris
-  - urllib3
-  - imageio
-  - ipywidgets
-  - tqdm
+  - iris==3.0.1
+  - pip
+  - pip:
+    - matplotlib
+    - numpy
+    - hvplot
+    - tensorflow==2.2.0
+    - geoviews
+    - urllib3
+    - imageio
+    - ipywidgets
+    - pandas
+    - tqdm
+    - xarray
